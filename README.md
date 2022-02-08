@@ -15,6 +15,6 @@ The following image shows the web application's appearance and functionality:
 Uoft SCS Coding Bootcamp, Gitlab and Open Weather Api.
 
 ## GitHub and Link to Deployed Application
-Github: jasskamal
+Github: (https://github.com/Jasskamal/Weather.git)
 <br>
 Application: (https://jasskamal.github.io/Weather/)
