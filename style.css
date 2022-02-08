@@ -1,0 +1,75 @@
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: lightskyblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: left;
+}
+
+#btn1,#cityInput{
+    width: 100%;
+    margin: 5px;
+}
+#cityName{
+    margin: 10px;
+    margin-bottom: 25px;
+}
+#cityInput{
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.input{
+    border-bottom: 2px solid grey;
+}
+button{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+#btn1{
+    background-color: rgb(15, 124, 248);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+li{
+    display: flex;
+    justify-content: left;
+    color: black;
+    font-size: 20px;
+}
+.container2{
+    margin: 20px;
+}
+.current{
+    height: 200px;
+    width: 100%;
+    border: 1.5px solid rgb(40, 36, 73);
+}
+.card{
+    display: inline-block;
+    margin: 8px;
+    height: 200px;
+    width: 150px;
+    background-color: rgb(11, 65, 109);
+    color: white;
+    border-radius: 4px;
+}
+h3{
+    margin: 10px;
+}
+#emoji{
+    border-bottom: 2px solid rgb(63, 63, 63);
+    border-radius: 15px;
+}
+p{
+    margin: 6px;
+}

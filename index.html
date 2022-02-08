@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="head">Weather Dashboard</header>
+    <div class="container">
+        <section class="search">
+            <h1>Search for a City:</h1>
+            <section class="input">
+                <input id="cityInput" type="text" placeholder="City">
+                <button onclick="getInput()" id="btn1">Search</button>
+                <ul id="searchlist"></ul>
+            </section>
+        </section>
+        <div class="container2">
+            <section class="current" id="day1">
+                <h2 id="cityName"></h2>
+                <img>
+                
+                <p>
+                    Temp:
+                </p>
+                <p>
+                    Wind:
+                </p>
+                <p>
+                    Humidity:
+                </p>
+
+            </section>
+            <section class="forecast">
+                <h1>5-Day Forecast:</h1>
+                <div class="card" id="day2">
+                    <h3>--Date--</h3>
+                    <img>
+                    <p>
+                        Temp:
+                    </p>
+                    <p>
+                        Wind:
+                    </p>
+                    <p>
+                        Humidity:
+                    </p>
+                </div>
+                <div class="card" id="day3">
+                    <h3>--Date--</h3>
+                    <img>
+                    <p>
+                        Temp:
+                    </p>
+                    <p>
+                        Wind:
+                    </p>
+                    <p>
+                        Humidity:
+                    </p>
+                </div>
+                <div class="card" id="day4">
+                    <h3>--Date--</h3>
+                    <img>
+                    <p>
+                        Temp:
+                    </p>
+                    <p>
+                        Wind:
+                    </p>
+                    <p>
+                        Humidity:
+                    </p>
+                </div>
+                <div class="card" id="day5">
+                    <h3>--Date--</h3>
+                    <img>
+                    <p>
+                        Temp:
+                    </p>
+                    <p>
+                        Wind:
+                    </p>
+                    <p>
+                        Humidity:
+                    </p>
+                </div>
+                <div class="card" id="day6">
+                    <h3>--Date--</h3>
+                    <img>
+                    <p>
+                        Temp:
+                    </p>
+                    <p>
+                        Wind:
+                    </p>
+                    <p>
+                        Humidity:
+                    </p>
+                </div>
+            </section>
+
+        </div>
+        
+        
+
+
+    </div>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
